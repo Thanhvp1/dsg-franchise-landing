@@ -1553,8 +1553,8 @@ class FranchiseLandingApp {
     const pkg = (this.currentPackage === 'qcfm10') ? FRANCHISE_DATA.qcfm10 : FRANCHISE_DATA.qcfm5;
     const items = pkg.items || [];
 
-    const filtered = this.currentCategory === 'all' 
-      ? items 
+    const filtered = this.currentCategory === 'all'
+      ? items
       : items.filter(item => item.group === this.currentCategory);
 
     grid.innerHTML = filtered.map(item => `
@@ -1713,8 +1713,8 @@ class FranchiseLandingApp {
       const totalMoneyPaidForBeans = purchasedBeansKg * beanPricePerKg;
 
       // Giá vốn hạt thực tế sau khi phân bổ lượng hạt tặng (nếu có)
-      const effectiveBeanPricePerKg = totalBeansReceivedKg > 0 
-        ? (totalMoneyPaidForBeans / totalBeansReceivedKg) 
+      const effectiveBeanPricePerKg = totalBeansReceivedKg > 0
+        ? (totalMoneyPaidForBeans / totalBeansReceivedKg)
         : beanPricePerKg;
 
       // Chi phí hạt tính cho mỗi ly cà phê
@@ -1735,13 +1735,13 @@ class FranchiseLandingApp {
 
       const monthlyGrossProfit = monthlyRevenue - monthlyCogs;
       const monthlyRent = rentDaily * daysPerMonth;
-      
+
       // Fixed labor / operational support: Đất Sài supports 50%
       const monthlyLaborMisc = monthlyCups > 1500 ? 1200000 : 600000;
 
       const monthlyNetProfit = Math.max(0, monthlyGrossProfit - monthlyRent - monthlyLaborMisc);
       const depositAmount = currentPkg.investment;
-      
+
       let paybackText = 'N/A';
       if (monthlyNetProfit > 0) {
         const rawMonths = (depositAmount / monthlyNetProfit);
@@ -1755,8 +1755,8 @@ class FranchiseLandingApp {
       }
 
       if (valMethodYield) {
-        valMethodYield.textContent = selectedMethod === 'machine' 
-          ? `Pha Máy (60 ly / kg • ~16.7g/ly)` 
+        valMethodYield.textContent = selectedMethod === 'machine'
+          ? `Pha Máy (60 ly / kg • ~16.7g/ly)`
           : `Pha Phin (40 ly / kg • ~25g/ly)`;
       }
 
@@ -1801,7 +1801,7 @@ class FranchiseLandingApp {
           ? `+${Math.round(monthlyBeanSaved).toLocaleString('vi-VN')} đ / tháng`
           : `0 đ / tháng`;
       }
-      
+
       if (outRent) {
         if (currentPkg.isRental) {
           outRent.style.color = '#FFFFFF';
@@ -1812,7 +1812,7 @@ class FranchiseLandingApp {
         }
       }
 
-      if (outGrossProfit) outGrossProfit.textContent = `+${Math.round(monthlyGrossProfit).toLocaleString('vi-VN')} đ (${Math.round((monthlyGrossProfit/monthlyRevenue)*100)}%)`;
+      if (outGrossProfit) outGrossProfit.textContent = `+${Math.round(monthlyGrossProfit).toLocaleString('vi-VN')} đ (${Math.round((monthlyGrossProfit / monthlyRevenue) * 100)}%)`;
       if (outNetProfit) outNetProfit.textContent = `+${Math.round(monthlyNetProfit).toLocaleString('vi-VN')} đ`;
       if (outPayback) outPayback.textContent = paybackText;
 
