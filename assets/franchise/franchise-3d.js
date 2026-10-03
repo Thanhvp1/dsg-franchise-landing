@@ -16,7 +16,7 @@ const FRANCHISE_DATA = {
     dailyRental: "15.000đ/ngày",
     payback: "Cam kết hoàn vốn 100% sau 6 tháng (50 ly/ngày)",
     itemsCount: 28,
-    previewImg: "assets/franchise/rendered_pages/qcfm5_page_1.png",
+    previewImg: "assets/franchise/quay_xe_inox_6tr_cafe_anh_viet.jpg",
     features: [
       "Bàn giao trọn gói 28 hạng mục vật dụng cao cấp",
       "Quầy di động inox gấp gọn có thể thu hồi lại tiền cọc",
@@ -66,7 +66,7 @@ const FRANCHISE_DATA = {
     dailyRental: "22.000đ/ngày",
     payback: "Cam kết hoàn vốn 100% sau 6 - 9 tháng (100 ly/ngày)",
     itemsCount: 31,
-    previewImg: "assets/franchise/rendered_pages/qcfm10_page_1.png",
+    previewImg: "assets/franchise/quay_xe_inox_10tr_cafe_anh_viet.jpg",
     features: [
       "Bàn giao trọn gói 31 hạng mục (Quầy Inox cao cấp + Đèn Led Rạng Đông 1.2m)",
       "Trang bị thêm Xúc đá inox và Ly đong định lượng 100ml",
@@ -118,7 +118,7 @@ const FRANCHISE_DATA = {
     dailyRental: "Hợp tác đối tác 3 bên",
     payback: "Hoàn vốn 100% sau 24 tháng (>= 1.5kg/ngày)",
     itemsCount: "Full Máy & Dụng Cụ",
-    previewImg: "assets/images/hero_banner_cinematic.jpg",
+    previewImg: "assets/franchise/Combo_may_pha_cf_Gemilai_CRM_3200B_va_HC_600.png",
     features: [
       "Quầy Inox chịu lực cao cấp thiết kế riêng đặt máy pha",
       "Máy pha Espresso chuyên nghiệp Corrima CRM 3200B (16 Triệu)",
