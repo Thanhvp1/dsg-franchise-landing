@@ -26,7 +26,7 @@ const FRANCHISE_DATA = {
       "Chuyển giao 100% công thức Cà phê muối Đất Sài độc quyền"
     ],
     items: [
-      { stt: "01", name: "Quầy di động inox chuyên dụng (Có thể thu hồi lại)", unit: "Cái", qty: "1", group: "quay_chieu_sang", group_name: "Quầy xe & Chiếu sáng", img: "quay_xe_inox_cafe_anh_viet.jpg" },
+      { stt: "01", name: "Quầy di động inox chuyên dụng (Có thể thu hồi lại)", unit: "Cái", qty: "1", group: "quay_chieu_sang", group_name: "Quầy xe & Chiếu sáng", img: "quay_xe_inox_6tr_cafe_anh_viet.jpg" },
       { stt: "02", name: "Kệ đựng ly 4 ngăn nghiêng chuyên nghiệp", unit: "Bộ", qty: "1", group: "dung_cu", group_name: "Dụng cụ pha chế", img: "items_qcfm5/item_3_14.jpeg" },
       { stt: "03", name: "Ly nhựa 360ml + nắp cầu cao cấp", unit: "Cái", qty: "200", group: "bao_bi", group_name: "Bao bì & Phục vụ", img: "items_qcfm5/item_4_16.png" },
       { stt: "04", name: "Ly nhựa 700ml + nắp chịu nhiệt", unit: "Cái", qty: "200", group: "bao_bi", group_name: "Bao bì & Phục vụ", img: "items_qcfm5/item_4_16.png" },
@@ -76,7 +76,7 @@ const FRANCHISE_DATA = {
       "Cam kết hoàn vốn 100% khi đạt mốc sản lượng"
     ],
     items: [
-      { stt: "01", name: "Quầy di động inox cao cấp chuyên dụng (Có thể thu hồi lại)", unit: "Cái", qty: "1", group: "quay_chieu_sang", group_name: "Quầy xe & Chiếu sáng", img: "quay_xe_inox_cafe_anh_viet.jpg" },
+      { stt: "01", name: "Quầy di động inox cao cấp chuyên dụng (Có thể thu hồi lại)", unit: "Cái", qty: "1", group: "quay_chieu_sang", group_name: "Quầy xe & Chiếu sáng", img: "quay_xe_inox_10tr_cafe_anh_viet.jpg" },
       { stt: "02", name: "Bộ Đèn 1.2m vàng Rạng Đông + Dây 3m + Phích cắm", unit: "Bộ", qty: "1", group: "quay_chieu_sang", group_name: "Quầy xe & Chiếu sáng", badge: "Đặc quyền gói 10", img: "items_qcfm10/item_3_22.jpeg" },
       { stt: "03", name: "Kệ đựng ly 4 ngăn nghiêng chuyên nghiệp", unit: "Bộ", qty: "1", group: "dung_cu", group_name: "Dụng cụ pha chế", img: "items_qcfm10/item_4_14.jpeg" },
       { stt: "04", name: "Ly nhựa 360ml + nắp cầu cao cấp", unit: "Cái", qty: "300", group: "bao_bi", group_name: "Bao bì & Phục vụ", badge: "+100 ly", img: "items_qcfm10/item_5_18.png" },
@@ -137,7 +137,7 @@ const FRANCHISE_DATA = {
     dailyRental: "15.000đ – 22.000đ/ngày",
     payback: "Thu hồi cọc 100% hoặc Mua đứt quầy khi hết hạn thuê",
     itemsCount: "Đầy đủ vật dụng",
-    previewImg: "assets/franchise/quay_xe_inox_cafe_anh_viet.jpg",
+    previewImg: "assets/franchise/quay_xe_inox_6tr_cafe_anh_viet.jpg",
     features: [
       "Chi phí thuê cực thấp: Chỉ 15.000đ/ngày (Quầy 6tr) hoặc 22.000đ/ngày (Quầy Inox)",
       "Ký quỹ chỉ từ 4.200.000đ (thời gian thuê 1 - 3 tháng)",
@@ -1574,11 +1574,11 @@ class FranchiseLandingApp {
         ${item.badge ? `<span class="eq-special-badge">${item.badge}</span>` : ''}
         
         <div class="eq-img-box">
-          <img src="assets/franchise/${item.img || 'quay_xe_inox_cafe_anh_viet.jpg'}" 
+          <img src="assets/franchise/${item.img || 'quay_xe_inox_6tr_cafe_anh_viet.jpg'}" 
                alt="${item.name}" 
                loading="lazy" 
                class="eq-item-img"
-               onerror="this.onerror=null; this.src='assets/franchise/quay_xe_inox_cafe_anh_viet.jpg';">
+               onerror="this.onerror=null; this.src='assets/franchise/quay_xe_inox_6tr_cafe_anh_viet.jpg';">
         </div>
 
         <div class="eq-item-name">${item.name}</div>
