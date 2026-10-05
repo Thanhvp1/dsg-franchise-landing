@@ -1,6 +1,6 @@
-# ☕ ĐẤT SÀI CAFÉ — LANDING PAGE NHƯỢNG QUYỀN TO-GO & TRẠM 3D GEMILAI CRM 3200B
+# ☕ CAFÉ ANH VIỆT SÀI GÒN — LANDING PAGE NHƯỢNG QUYỀN CAFÉ TOGO
 
-Trang Landing Page độc lập quảng bá mô hình **Nhượng Quyền Cà Phê To-Go 0 Đồng Rủi Ro**, tích hợp trạm mô phỏng 3D tương tác máy pha **Gemilai CRM 3200B**, cốc Cà Phê Muối Đất Sài 3 tầng và công cụ tính toán điểm hòa vốn / ROI trực tiếp cho đối tác.
+Trang Landing Page độc lập quảng bá mô hình **Nhượng Quyền Café Togo 0 Đồng Rủi Ro — CAFÉ ANH VIỆT SÀI GÒN**, tích hợp khu vực showcase combo máy pha cà phê **Gemilai CRM 3200B & Máy xay HC-600**, bảng tính toán điểm hòa vốn / ROI trực tiếp cho đối tác và danh mục trang thiết bị chuẩn hóa.
 
 ---
 
@@ -15,9 +15,9 @@ landing-page/
 └── assets/
     ├── franchise/
     │   ├── franchise-landing.css # Toàn bộ hệ thống giao diện, responsive & themes
-    │   └── franchise-3d.js       # Engine 3D Three.js máy pha Gemilai & Logic ROI
+    │   └── franchise-3d.js       # Logic hiển thị vật dụng, bảng giá & Engine tính toán ROI
     └── images/
-        ├── logo_dsg_chuan.png    # Logo chuẩn Đất Sài Café
+        ├── logo_dsg_chuan.png    # Logo chuẩn
         ├── logo_dsg.png
         ├── dsg_banner.png
         └── ...                   # Bộ tài nguyên hình ảnh thương hiệu đi kèm
@@ -26,10 +26,8 @@ landing-page/
 ---
 
 ## 🚀 Tính Năng Chính
-1. **Trạm 3D Gemilai CRM 3200B Tương Tác:**
-   - Xoay 360°, chế độ khung lưới Tech Mesh, quét Laser phân tích, hiệu ứng khói áp suất.
-   - Nút mô phỏng chu trình chiết xuất Espresso 15-Bar với đồng hồ cơ đo áp suất, màn hình OLED PID hiển thị thông số và dòng chảy cà phê.
-   - Cốc Cà Phê Muối To-Go 3 tầng thực tế kèm sleeve thương hiệu Đất Sài.
+1. **Showcase Máy Pha Gemilai CRM 3200B & Máy Xay HC-600:**
+   - Trưng bày trực quan hình ảnh combo máy pha chuyên nghiệp 15-Bar chuẩn Ý, chiết xuất 20s/ly, công suất 250 ly/ngày.
 2. **Hệ Thống Gói Nhượng Quyền & Bảng Tính ROI:**
    - Chi tiết gói Khởi Nghiệp QCFM 5 (6 Triệu), Gói Inox QCFM 10 (10 Triệu), Gói Pha Máy Espresso và Gói Thuê Quầy Bán Thử 15k/ngày.
    - Công cụ tính toán doanh thu, chi phí hạt nhập 10 TẶNG 1, định mức 60 ly/kg (pha máy) và 40 ly/kg (pha phin).
